@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factory.am;
 
 public class NYPizzaStore extends PizzaStore{
     @Override

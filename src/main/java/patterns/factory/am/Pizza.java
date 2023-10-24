@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factory.am;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public abstract class Pizza {
     String name;
     String dough;
     String sauce;
-    List<String> toppings = new ArrayList<String>();
+    List<String> toppings = new ArrayList<>();
 
     void prepare() {
         System.out.println("Preparing " + name);
