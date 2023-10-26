@@ -1,6 +1,6 @@
 package patterns.command.simple.remote.control;
 
-import patterns.command.Command;
+import patterns.command.remote.control.Command;
 
 public class SimpleRemoteControl {
 

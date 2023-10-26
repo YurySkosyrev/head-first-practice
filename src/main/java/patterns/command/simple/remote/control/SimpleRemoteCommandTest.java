@@ -1,7 +1,7 @@
 package patterns.command.simple.remote.control;
 
-import patterns.command.device.light.Light;
-import patterns.command.device.light.LightOnCommand;
+import patterns.command.remote.control.device.light.Light;
+import patterns.command.remote.control.device.light.LightOnCommand;
 
 public class SimpleRemoteCommandTest {
     public static void main(String[] args) {
