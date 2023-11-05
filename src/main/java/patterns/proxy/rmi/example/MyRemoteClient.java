@@ -13,8 +13,8 @@ public class MyRemoteClient {
 
         try {
             final Registry registry = LocateRegistry.getRegistry(2712);
+//            MyRemote service = (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
             MyRemote service = (MyRemote) registry.lookup("RemoteHello");
-
             String s = service.sayHello();
 
             System.out.println(s);
